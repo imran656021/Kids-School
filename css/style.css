@@ -1,0 +1,672 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500;600;700&family=Roboto:wght@400;700;900&display=swap');
+
+/* font-family: 'Dosis', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    background: black;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: .4rem;
+    -webkit-border-radius: .4rem;
+    -moz-border-radius: .4rem;
+    -ms-border-radius: .4rem;
+    -o-border-radius: .4rem;
+}
+
+.little-title {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+.little-description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/* basic setup complete */
+
+
+/* ========header part start ============= */
+
+
+/* topbar */
+
+header {
+    background: #00a4d3;
+    padding-bottom: 2rem;
+}
+
+.top-bar {
+    padding-top: 1rem;
+}
+
+.top-bar a {
+    font-size: 1.4rem;
+    color: #ffffff;
+    margin: 0 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.top-bar a:hover {
+    color: black;
+}
+
+.top-bar .text-right {
+    text-align: right;
+}
+
+header hr {
+    margin-bottom: 0;
+    width: 76%;
+    margin-left: auto;
+    background: #fff;
+    margin-right: 1.5rem;
+    opacity: .7;
+}
+
+
+/* ==============menu start ============================ */
+
+.navbar-brand img {
+    margin-top: -4rem;
+}
+
+.nav-bar ul li {
+    margin-right: 4.8rem;
+}
+
+.nav-bar ul li:last-child {
+    margin-right: 0;
+}
+
+.nav-bar ul li a {
+    color: #ffff !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    position: relative;
+    opacity: .8;
+}
+
+.nav-bar ul li a::after {
+    content: '';
+    background: white;
+    height: .2rem;
+    width: 0%;
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    opacity: .9;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.nav-bar ul li a:hover::after {
+    width: 80%;
+}
+
+.nav-bar ul li a:hover {
+    opacity: 1;
+}
+
+
+/* ================ heade part end ================== */
+
+
+/* =================== header content part start =============== */
+
+.sub-header {
+    background: #00a4d3;
+}
+
+.header-con {
+    background: url(../images/header-bg3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.header-con-img {
+    margin-top: 11rem;
+    width: 65%;
+    float: right;
+    margin-bottom: 3rem;
+}
+
+.header-txt h2 {
+    color: #00a4d3;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 6rem;
+}
+
+.header-txt {
+    padding-top: 17rem;
+    padding-left: 7rem;
+    flex: column;
+}
+
+.header-txt p {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    color: #00a4d3;
+}
+
+.header-btn {
+    background: #00a4d3;
+    color: white;
+    margin-left: 13rem;
+    margin-top: 1rem;
+    transition: all ease-in-out .4s;
+    -webkit-transition: all ease-in-out .4s;
+    -moz-transition: all ease-in-out .4s;
+    -ms-transition: all ease-in-out .4s;
+    -o-transition: all ease-in-out .4s;
+}
+
+.header-btn:hover {
+    border: .1rem solid #00a4d3;
+    color: #00a4d3;
+    font-weight: bold;
+    background: transparent;
+}
+
+.header-con .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/* ================header content part end ===================== */
+
+
+/* ===================kids master part start ==================== */
+
+.kids-master {
+    background: url(../images/kids-master-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.kids-master .master-img {
+    width: 90%;
+    margin-left: auto;
+    padding: 4rem 0;
+}
+
+.kids-master .master-con {
+    width: 90%;
+    margin-top: 5rem;
+}
+
+.kids-master .master-con h4 {
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+
+.kids-master .master-con h2 {
+    font-size: 4rem;
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+}
+
+.kids-master .master-con p {
+    font-size: 1.6rem;
+    color: #fff;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+    margin: 2rem 0;
+}
+
+.master-btn {
+    background: #fff;
+    color: #00a4d3;
+    margin-top: .5rem;
+}
+
+.master-btn:hover {
+    border: .1rem solid #fff;
+    color: #fff;
+    font-weight: bold;
+    background: transparent;
+}
+
+
+/* =======================kids master part end========================= */
+
+
+/* ==================course part start ============================ */
+
+.course {
+    background: #fafafa;
+    padding: 5rem 0;
+}
+
+.course-head h2 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #00a4d3;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.course-head p {
+    font-size: 1.7rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.course-con {
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 3rem;
+}
+
+.course-con .little-title {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 1.5rem;
+}
+
+.course-con h3 {
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 2rem;
+}
+
+.course-con .little-description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #000;
+    margin-bottom: 2.5rem;
+}
+
+.course-con a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    color: #00a4d3;
+}
+
+.course-btn {
+    background: #00a4d3;
+    color: white;
+    margin-top: 4rem;
+    transition: all ease-in-out .4s;
+    -webkit-transition: all ease-in-out .4s;
+    -moz-transition: all ease-in-out .4s;
+    -ms-transition: all ease-in-out .4s;
+    -o-transition: all ease-in-out .4s;
+}
+
+.course-btn:hover {
+    border: .1rem solid #00a4d3;
+    color: #00a4d3;
+    font-weight: bold;
+    background: transparent;
+}
+
+
+/* ======================course part end ============================= */
+
+
+/* ===================facilities section start here =================== */
+
+.facilities {
+    background: url(../images/school-facilities-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 3rem 0;
+    background-attachment: fixed;
+}
+
+.facilities-con {
+    width: 80%;
+}
+
+.facilities-con h3 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #fff;
+    margin: 2rem 0;
+}
+
+.facilities-con p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.facilities-box {
+    background: #fff;
+    text-align: center;
+    color: #00a4d3;
+    margin-left: 1.5rem;
+    margin-top: 4rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.facilities-box img {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.facilities-box h4 {
+    padding-bottom: 2rem;
+    text-transform: capitalize;
+}
+
+.school-faci-box .col {
+    padding-right: 0 !important;
+}
+
+.school-faci-box {
+    padding-right: 0 !important;
+    margin-right: o !important;
+    margin-top: 10rem;
+}
+
+
+/* ============================facilites end here ================= */
+
+
+/* ==============teacher part start here =============== */
+
+.teacher {
+    padding: 6rem 0;
+}
+
+.t-header h2 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #00a4d3;
+    text-align: center;
+}
+
+.t-header p {
+    font-size: 1.7rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.teachers {
+    position: relative;
+    margin-bottom: 3rem;
+    cursor: pointer;
+}
+
+.teachers:hover .teachers-content {
+    height: 5.5rem;
+}
+
+.teachers-content {
+    height: 0;
+    position: absolute;
+    background: #00a4d3;
+    color: #fff;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    transition: all ease-in-out .4s;
+    -webkit-transition: all ease-in-out .4s;
+    -moz-transition: all ease-in-out .4s;
+    -ms-transition: all ease-in-out .4s;
+    -o-transition: all ease-in-out .4s;
+}
+
+.teachers-content h3 {
+    padding-top: 1.7rem;
+    float: left;
+    padding-right: .5rem;
+    padding-left: 3rem;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+
+.teachers-content p {
+    padding-top: 1.9rem;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+
+/* ======================carousel items ===================== */
+
+
+/* .carousel-indicators>li {
+    border-radius: 50%;
+    
+} */
+
+.carousel-indicators li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #fff;
+    background: transparent;
+}
+
+
+/* =================carousel end =================== */
+
+
+/* ===============notice bord start ========================= */
+
+.notice-bord {
+    padding: 7rem 0;
+}
+
+.notice-bord h2 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #00a4d3;
+    text-align: center;
+}
+
+.notice-bord a {
+    color: #00a4d3 !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    position: relative;
+}
+
+.notice-bord img {
+    margin-top: 2.5rem;
+    width: 100%;
+}
+
+.notice-bord .tab-con {
+    margin: 0 1rem;
+}
+
+
+/* ===============notice bord end========================= */
+
+
+/* notice-foot satart here  */
+
+.notice-foot {
+    background: #f5f5f5;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.notice-logo {
+    margin-left: 31%;
+    cursor: pointer;
+}
+
+.notice-foot h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #00a4d3;
+    margin-top: 1rem;
+}
+
+
+/* ================footer part start here=============== */
+
+.footer {
+    padding-top: 19rem;
+    background: url(../images/footer-bg.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* sign up part */
+
+.sign-up h3 {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #00a4d3;
+}
+
+.sign-up input {
+    outline: none;
+    border: 1px solid #00a4d3;
+    padding: 1.2rem 10rem;
+    margin-right: 1rem;
+}
+
+.sign-up button {
+    border: none;
+    background: #00a4d3;
+    color: #fff;
+    padding: 1rem 2.5rem;
+    font-size: 1.5rem;
+}
+
+.foot-mid-con h4 {
+    color: #00a4d3;
+    margin-bottom: 2rem;
+}
+
+.foot-mid-con {
+    margin-top: 5rem;
+}
+
+.foot-mid-con i {
+    border-radius: .8rem;
+    margin: 8rem 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    background: #00a4d3;
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer-end {
+    margin-top: 1rem;
+    padding-bottom: 21rem;
+}
+
+.footer-end h3 {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.footer-end img {}
+
+.footer-end button {
+    border: none;
+    background: #00a4d3;
+    color: #fff;
+    padding: 1rem 2.5rem;
+    border: 1px solid #00a4d3;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: all ease-in-out .4s;
+    -webkit-transition: all ease-in-out .4s;
+    -moz-transition: all ease-in-out .4s;
+    -ms-transition: all ease-in-out .4s;
+    -o-transition: all ease-in-out .4s;
+}
+
+.footer-end button:hover {
+    border: 1px solid #00a4d3;
+    background: transparent;
+    color: #00a4d3;
+}
